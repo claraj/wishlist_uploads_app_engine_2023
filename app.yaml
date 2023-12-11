@@ -1,0 +1,7 @@
+runtime: python310
+entrypoint: gunicorn -b :$PORT wishlist.wsgi
+
+env_variables:
+  TRAVELER_PW: YOUR_PASSWORD_HERE
+
+

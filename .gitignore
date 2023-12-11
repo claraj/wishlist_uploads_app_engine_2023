@@ -3,3 +3,6 @@ __pycache__
 db.sqlite3
 venv
 .vscode/
+travel_credentials.json
+media/user_images
+cloud-sql-proxy
